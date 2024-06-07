@@ -21,7 +21,7 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    overflow: hidden;
+    border-radius: 1.5rem;
 }
 
 .heading,
@@ -116,5 +116,9 @@
 @media (max-width: 475px) {
     .container {
         width: 100%;
+    }
+
+    .paragraph {
+        margin: 0 1rem;
     }
 }
